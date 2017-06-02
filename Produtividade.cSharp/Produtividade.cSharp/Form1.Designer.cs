@@ -45,6 +45,7 @@
             this.empregoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.estudosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lazerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gdfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -146,7 +147,8 @@
             this.casaToolStripMenuItem1,
             this.empregoToolStripMenuItem1,
             this.estudosToolStripMenuItem1,
-            this.lazerToolStripMenuItem1});
+            this.lazerToolStripMenuItem1,
+            this.gdfToolStripMenuItem});
             this.pontosToolStripMenuItem.Name = "pontosToolStripMenuItem";
             this.pontosToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.pontosToolStripMenuItem.Text = "Pontos";
@@ -174,6 +176,12 @@
             this.lazerToolStripMenuItem1.Name = "lazerToolStripMenuItem1";
             this.lazerToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.lazerToolStripMenuItem1.Text = "Lazer";
+            // 
+            // gdfToolStripMenuItem
+            // 
+            this.gdfToolStripMenuItem.Name = "gdfToolStripMenuItem";
+            this.gdfToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gdfToolStripMenuItem.Text = "65gdf";
             // 
             // Inicial
             // 
@@ -213,6 +221,7 @@
         private System.Windows.Forms.ToolStripMenuItem empregoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem estudosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem lazerToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem gdfToolStripMenuItem;
     }
 }
 

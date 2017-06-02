@@ -1,6 +1,6 @@
 ﻿namespace Produtividade.cSharp
 {
-    partial class Form1
+    partial class Inicial
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,13 @@
         private void InitializeComponent()
         {
             this.lblOrientacao = new System.Windows.Forms.Label();
-            this.btnEscolhaCasa = new System.Windows.Forms.Button();
-            this.btnSevico = new System.Windows.Forms.Button();
-            this.btnEstudos = new System.Windows.Forms.Button();
-            this.btnLazer = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.casaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.empregoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estudosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lazerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filhosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblOrientacao
@@ -40,59 +43,71 @@
             this.lblOrientacao.AutoSize = true;
             this.lblOrientacao.Location = new System.Drawing.Point(12, 9);
             this.lblOrientacao.Name = "lblOrientacao";
-            this.lblOrientacao.Size = new System.Drawing.Size(238, 91);
+            this.lblOrientacao.Size = new System.Drawing.Size(0, 13);
             this.lblOrientacao.TabIndex = 0;
-            this.lblOrientacao.Text = "Vamos aumentar a produtividade ? \r\n\r\n\r\n Começaremos com esses assuntos \r\n\r\n\r\n Som" +
-    "ente escolha , e te ajudarei a se empenhar .";
             // 
-            // btnEscolhaCasa
+            // menuStrip1
             // 
-            this.btnEscolhaCasa.Location = new System.Drawing.Point(55, 375);
-            this.btnEscolhaCasa.Name = "btnEscolhaCasa";
-            this.btnEscolhaCasa.Size = new System.Drawing.Size(75, 23);
-            this.btnEscolhaCasa.TabIndex = 1;
-            this.btnEscolhaCasa.Text = "Casa";
-            this.btnEscolhaCasa.UseVisualStyleBackColor = true;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.casaToolStripMenuItem,
+            this.empregoToolStripMenuItem,
+            this.estudosToolStripMenuItem,
+            this.lazerToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(575, 24);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // btnSevico
+            // casaToolStripMenuItem
             // 
-            this.btnSevico.Location = new System.Drawing.Point(195, 375);
-            this.btnSevico.Name = "btnSevico";
-            this.btnSevico.Size = new System.Drawing.Size(75, 23);
-            this.btnSevico.TabIndex = 2;
-            this.btnSevico.Text = "Serviço ";
-            this.btnSevico.UseVisualStyleBackColor = true;
+            this.casaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.filhosToolStripMenuItem});
+            this.casaToolStripMenuItem.Name = "casaToolStripMenuItem";
+            this.casaToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.casaToolStripMenuItem.Text = "Casa";
+            this.casaToolStripMenuItem.Click += new System.EventHandler(this.casaToolStripMenuItem_Click);
             // 
-            // btnEstudos
+            // empregoToolStripMenuItem
             // 
-            this.btnEstudos.Location = new System.Drawing.Point(330, 375);
-            this.btnEstudos.Name = "btnEstudos";
-            this.btnEstudos.Size = new System.Drawing.Size(75, 23);
-            this.btnEstudos.TabIndex = 3;
-            this.btnEstudos.Text = "Estudos";
-            this.btnEstudos.UseVisualStyleBackColor = true;
+            this.empregoToolStripMenuItem.Name = "empregoToolStripMenuItem";
+            this.empregoToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.empregoToolStripMenuItem.Text = "Emprego";
+            this.empregoToolStripMenuItem.Click += new System.EventHandler(this.empregoToolStripMenuItem_Click);
             // 
-            // btnLazer
+            // estudosToolStripMenuItem
             // 
-            this.btnLazer.Location = new System.Drawing.Point(459, 375);
-            this.btnLazer.Name = "btnLazer";
-            this.btnLazer.Size = new System.Drawing.Size(75, 23);
-            this.btnLazer.TabIndex = 4;
-            this.btnLazer.Text = "Lazer";
-            this.btnLazer.UseVisualStyleBackColor = true;
+            this.estudosToolStripMenuItem.Name = "estudosToolStripMenuItem";
+            this.estudosToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.estudosToolStripMenuItem.Text = "Estudos";
+            this.estudosToolStripMenuItem.Click += new System.EventHandler(this.estudosToolStripMenuItem_Click);
             // 
-            // Form1
+            // lazerToolStripMenuItem
+            // 
+            this.lazerToolStripMenuItem.Name = "lazerToolStripMenuItem";
+            this.lazerToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.lazerToolStripMenuItem.Text = "Lazer";
+            this.lazerToolStripMenuItem.Click += new System.EventHandler(this.lazerToolStripMenuItem_Click);
+            // 
+            // filhosToolStripMenuItem
+            // 
+            this.filhosToolStripMenuItem.Name = "filhosToolStripMenuItem";
+            this.filhosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.filhosToolStripMenuItem.Text = "Filhos";
+            // 
+            // Inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 432);
-            this.Controls.Add(this.btnLazer);
-            this.Controls.Add(this.btnEstudos);
-            this.Controls.Add(this.btnSevico);
-            this.Controls.Add(this.btnEscolhaCasa);
             this.Controls.Add(this.lblOrientacao);
-            this.Name = "Form1";
-            this.Text = "A";
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Inicial";
+            this.Text = "Tala_Inicial ";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,10 +116,12 @@
         #endregion
 
         private System.Windows.Forms.Label lblOrientacao;
-        private System.Windows.Forms.Button btnEscolhaCasa;
-        private System.Windows.Forms.Button btnSevico;
-        private System.Windows.Forms.Button btnEstudos;
-        private System.Windows.Forms.Button btnLazer;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem casaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empregoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estudosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lazerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filhosToolStripMenuItem;
     }
 }
 

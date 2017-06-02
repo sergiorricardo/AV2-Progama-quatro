@@ -1,1 +1,27 @@
 C:\Users\DAni3L\Documents\csharp\Produtividade.cs\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.pdb
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csprojResolveAssemblyReference.cache
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Casa.resources
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Emprego.resources
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Estudos.resources
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Inicial.resources
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Lazer.resources
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Properties.Resources.resources
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
+E:\executáveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.pdb
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csprojResolveAssemblyReference.cache
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Casa.resources
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Emprego.resources
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Estudos.resources
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Inicial.resources
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Lazer.resources
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Properties.Resources.resources
+E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache

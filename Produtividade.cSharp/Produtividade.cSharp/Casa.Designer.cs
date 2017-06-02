@@ -235,6 +235,7 @@
             this.Controls.Add(this.checkBox1);
             this.Name = "Casa";
             this.Text = "Casa";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

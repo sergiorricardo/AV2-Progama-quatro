@@ -25,3 +25,6 @@ E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtivid
 E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Lazer.resources
 E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Properties.Resources.resources
 E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache
+E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
+E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb

@@ -31,10 +31,20 @@
             this.lblOrientacao = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.casaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filhosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empregoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estudosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lazerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.filhosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.poToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.neToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.casaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.empregoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.estudosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lazerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +62,8 @@
             this.casaToolStripMenuItem,
             this.empregoToolStripMenuItem,
             this.estudosToolStripMenuItem,
-            this.lazerToolStripMenuItem});
+            this.lazerToolStripMenuItem,
+            this.pontosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(575, 24);
@@ -62,11 +73,18 @@
             // casaToolStripMenuItem
             // 
             this.casaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.filhosToolStripMenuItem});
+            this.filhosToolStripMenuItem,
+            this.reToolStripMenuItem});
             this.casaToolStripMenuItem.Name = "casaToolStripMenuItem";
-            this.casaToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.casaToolStripMenuItem.Text = "Casa";
+            this.casaToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.casaToolStripMenuItem.Text = "Familia";
             this.casaToolStripMenuItem.Click += new System.EventHandler(this.casaToolStripMenuItem_Click);
+            // 
+            // filhosToolStripMenuItem
+            // 
+            this.filhosToolStripMenuItem.Name = "filhosToolStripMenuItem";
+            this.filhosToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.filhosToolStripMenuItem.Text = "Filhos";
             // 
             // empregoToolStripMenuItem
             // 
@@ -89,11 +107,73 @@
             this.lazerToolStripMenuItem.Text = "Lazer";
             this.lazerToolStripMenuItem.Click += new System.EventHandler(this.lazerToolStripMenuItem_Click);
             // 
-            // filhosToolStripMenuItem
+            // reToolStripMenuItem
             // 
-            this.filhosToolStripMenuItem.Name = "filhosToolStripMenuItem";
-            this.filhosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.filhosToolStripMenuItem.Text = "Filhos";
+            this.reToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.poToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem2,
+            this.neToolStripMenuItem});
+            this.reToolStripMenuItem.Name = "reToolStripMenuItem";
+            this.reToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reToolStripMenuItem.Text = "Re";
+            // 
+            // poToolStripMenuItem
+            // 
+            this.poToolStripMenuItem.Name = "poToolStripMenuItem";
+            this.poToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.poToolStripMenuItem.Text = "+";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(149, 6);
+            // 
+            // neToolStripMenuItem
+            // 
+            this.neToolStripMenuItem.Name = "neToolStripMenuItem";
+            this.neToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.neToolStripMenuItem.Text = "Ne-";
+            // 
+            // pontosToolStripMenuItem
+            // 
+            this.pontosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.casaToolStripMenuItem1,
+            this.empregoToolStripMenuItem1,
+            this.estudosToolStripMenuItem1,
+            this.lazerToolStripMenuItem1});
+            this.pontosToolStripMenuItem.Name = "pontosToolStripMenuItem";
+            this.pontosToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.pontosToolStripMenuItem.Text = "Pontos";
+            // 
+            // casaToolStripMenuItem1
+            // 
+            this.casaToolStripMenuItem1.Name = "casaToolStripMenuItem1";
+            this.casaToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.casaToolStripMenuItem1.Text = "Casa";
+            // 
+            // empregoToolStripMenuItem1
+            // 
+            this.empregoToolStripMenuItem1.Name = "empregoToolStripMenuItem1";
+            this.empregoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.empregoToolStripMenuItem1.Text = "Emprego";
+            // 
+            // estudosToolStripMenuItem1
+            // 
+            this.estudosToolStripMenuItem1.Name = "estudosToolStripMenuItem1";
+            this.estudosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.estudosToolStripMenuItem1.Text = "Estudos";
+            // 
+            // lazerToolStripMenuItem1
+            // 
+            this.lazerToolStripMenuItem1.Name = "lazerToolStripMenuItem1";
+            this.lazerToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.lazerToolStripMenuItem1.Text = "Lazer";
             // 
             // Inicial
             // 
@@ -106,6 +186,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Inicial";
             this.Text = "Tala_Inicial ";
+            this.Load += new System.EventHandler(this.Inicial_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -122,6 +203,16 @@
         private System.Windows.Forms.ToolStripMenuItem estudosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lazerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem filhosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem poToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem neToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pontosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem casaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem empregoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem estudosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem lazerToolStripMenuItem1;
     }
 }
 

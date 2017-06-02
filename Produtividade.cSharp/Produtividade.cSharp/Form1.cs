@@ -44,5 +44,10 @@ namespace Produtividade.cSharp
             la.MdiParent = this;
             la.Show();
         }
+
+        private void Inicial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

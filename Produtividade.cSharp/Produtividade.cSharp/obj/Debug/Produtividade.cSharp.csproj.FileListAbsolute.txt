@@ -31,3 +31,13 @@ E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtiv
 C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
 C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
 C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.pdb
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csprojResolveAssemblyReference.cache
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Casa.resources
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Emprego.resources
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Estudos.resources
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Inicial.resources
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Lazer.resources
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Properties.Resources.resources
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache

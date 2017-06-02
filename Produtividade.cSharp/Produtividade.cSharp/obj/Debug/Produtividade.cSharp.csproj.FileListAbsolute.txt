@@ -28,3 +28,6 @@ E:\executaveis liberados\git\produtividadeDaniel\Produtividade.cSharp\Produtivid
 E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
 E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
 E:\executaveis liberados\vitor\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
+C:\Users\internet\Source\Repos\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb

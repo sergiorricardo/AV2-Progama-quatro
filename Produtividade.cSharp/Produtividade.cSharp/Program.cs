@@ -16,7 +16,7 @@ namespace Produtividade.cSharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicial());
+            Application.Run(new Form1());
         }
     }
 }

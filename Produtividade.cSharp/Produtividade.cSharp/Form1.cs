@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Produtividade.cSharp
 {
-    public partial class Inicial : Form
+    public partial class Form1 : Form
     {
-        public Inicial()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -20,34 +20,24 @@ namespace Produtividade.cSharp
         private void casaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var cs = new Casa();
-            cs.MdiParent = this;
-            cs.Show();
+            cs.ShowDialog();
         }
 
-        private void empregoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var em = new Emprego();
-            em.MdiParent = this;
-            em.Show();
+            var src = new Emprego();
+            src.ShowDialog();
         }
 
         private void estudosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var es = new Estudos();
-            es.MdiParent = this;
-            es.Show();
+            es.ShowDialog();
         }
 
         private void lazerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var la = new Lazer();
-            la.MdiParent = this;
-            la.Show();
-        }
-
-        private void Inicial_Load(object sender, EventArgs e)
-        {
-
+            var lz = new Lazer();
         }
     }
 }

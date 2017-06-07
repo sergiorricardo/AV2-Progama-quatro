@@ -12,3 +12,6 @@ C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produt
 C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache
 C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
 C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
+C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb

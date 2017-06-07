@@ -39,5 +39,12 @@ namespace Produtividade.cSharp
         {
             var lz = new Lazer();
         }
+
+        private void prioridadesCriadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var pr_cs = new Prio_casa();
+            pr_cs.ShowDialog();
+
+        }
     }
 }

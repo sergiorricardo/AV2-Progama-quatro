@@ -56,12 +56,13 @@
             this.cmbprio12 = new System.Windows.Forms.ComboBox();
             this.cmbprio11 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.btnPrioTD = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ckbcs1
             // 
             this.ckbcs1.AutoSize = true;
-            this.ckbcs1.Location = new System.Drawing.Point(0, 37);
+            this.ckbcs1.Location = new System.Drawing.Point(53, 37);
             this.ckbcs1.Name = "ckbcs1";
             this.ckbcs1.Size = new System.Drawing.Size(88, 17);
             this.ckbcs1.TabIndex = 0;
@@ -72,7 +73,7 @@
             // ckbcs2
             // 
             this.ckbcs2.AutoSize = true;
-            this.ckbcs2.Location = new System.Drawing.Point(0, 96);
+            this.ckbcs2.Location = new System.Drawing.Point(53, 96);
             this.ckbcs2.Name = "ckbcs2";
             this.ckbcs2.Size = new System.Drawing.Size(90, 17);
             this.ckbcs2.TabIndex = 1;
@@ -83,7 +84,7 @@
             // ckbcs3
             // 
             this.ckbcs3.AutoSize = true;
-            this.ckbcs3.Location = new System.Drawing.Point(0, 208);
+            this.ckbcs3.Location = new System.Drawing.Point(53, 153);
             this.ckbcs3.Name = "ckbcs3";
             this.ckbcs3.Size = new System.Drawing.Size(106, 17);
             this.ckbcs3.TabIndex = 3;
@@ -94,7 +95,7 @@
             // ckbcs4
             // 
             this.ckbcs4.AutoSize = true;
-            this.ckbcs4.Location = new System.Drawing.Point(0, 149);
+            this.ckbcs4.Location = new System.Drawing.Point(53, 210);
             this.ckbcs4.Name = "ckbcs4";
             this.ckbcs4.Size = new System.Drawing.Size(100, 17);
             this.ckbcs4.TabIndex = 2;
@@ -105,7 +106,7 @@
             // ckbcs5
             // 
             this.ckbcs5.AutoSize = true;
-            this.ckbcs5.Location = new System.Drawing.Point(0, 320);
+            this.ckbcs5.Location = new System.Drawing.Point(53, 261);
             this.ckbcs5.Name = "ckbcs5";
             this.ckbcs5.Size = new System.Drawing.Size(138, 17);
             this.ckbcs5.TabIndex = 5;
@@ -116,40 +117,40 @@
             // ckbcs6
             // 
             this.ckbcs6.AutoSize = true;
-            this.ckbcs6.Location = new System.Drawing.Point(0, 261);
+            this.ckbcs6.Location = new System.Drawing.Point(53, 318);
             this.ckbcs6.Name = "ckbcs6";
-            this.ckbcs6.Size = new System.Drawing.Size(118, 17);
+            this.ckbcs6.Size = new System.Drawing.Size(112, 17);
             this.ckbcs6.TabIndex = 4;
-            this.ckbcs6.Text = "Reparos Elpetricos ";
+            this.ckbcs6.Text = "Reparos Eletricos ";
             this.ckbcs6.UseVisualStyleBackColor = true;
             this.ckbcs6.CheckedChanged += new System.EventHandler(this.ckbcs6_CheckedChanged);
             // 
             // ckbcs7
             // 
             this.ckbcs7.AutoSize = true;
-            this.ckbcs7.Location = new System.Drawing.Point(228, 320);
+            this.ckbcs7.Location = new System.Drawing.Point(298, 41);
             this.ckbcs7.Name = "ckbcs7";
-            this.ckbcs7.Size = new System.Drawing.Size(80, 17);
+            this.ckbcs7.Size = new System.Drawing.Size(89, 17);
             this.ckbcs7.TabIndex = 11;
-            this.ckbcs7.Text = "checkBox7";
+            this.ckbcs7.Text = "Arrumar Casa";
             this.ckbcs7.UseVisualStyleBackColor = true;
             this.ckbcs7.CheckedChanged += new System.EventHandler(this.ckbcs7_CheckedChanged);
             // 
             // ckbcs8
             // 
             this.ckbcs8.AutoSize = true;
-            this.ckbcs8.Location = new System.Drawing.Point(228, 261);
+            this.ckbcs8.Location = new System.Drawing.Point(298, 92);
             this.ckbcs8.Name = "ckbcs8";
-            this.ckbcs8.Size = new System.Drawing.Size(80, 17);
+            this.ckbcs8.Size = new System.Drawing.Size(85, 17);
             this.ckbcs8.TabIndex = 10;
-            this.ckbcs8.Text = "checkBox8";
+            this.ckbcs8.Text = "Lavar carros";
             this.ckbcs8.UseVisualStyleBackColor = true;
             this.ckbcs8.CheckedChanged += new System.EventHandler(this.ckbcs8_CheckedChanged);
             // 
             // ckbcs9
             // 
             this.ckbcs9.AutoSize = true;
-            this.ckbcs9.Location = new System.Drawing.Point(228, 208);
+            this.ckbcs9.Location = new System.Drawing.Point(298, 149);
             this.ckbcs9.Name = "ckbcs9";
             this.ckbcs9.Size = new System.Drawing.Size(101, 17);
             this.ckbcs9.TabIndex = 9;
@@ -160,7 +161,7 @@
             // ckbcs10
             // 
             this.ckbcs10.AutoSize = true;
-            this.ckbcs10.Location = new System.Drawing.Point(228, 149);
+            this.ckbcs10.Location = new System.Drawing.Point(298, 206);
             this.ckbcs10.Name = "ckbcs10";
             this.ckbcs10.Size = new System.Drawing.Size(95, 17);
             this.ckbcs10.TabIndex = 8;
@@ -171,7 +172,7 @@
             // ckbcs11
             // 
             this.ckbcs11.AutoSize = true;
-            this.ckbcs11.Location = new System.Drawing.Point(228, 96);
+            this.ckbcs11.Location = new System.Drawing.Point(296, 261);
             this.ckbcs11.Name = "ckbcs11";
             this.ckbcs11.Size = new System.Drawing.Size(119, 17);
             this.ckbcs11.TabIndex = 7;
@@ -182,7 +183,7 @@
             // ckbcs12
             // 
             this.ckbcs12.AutoSize = true;
-            this.ckbcs12.Location = new System.Drawing.Point(228, 37);
+            this.ckbcs12.Location = new System.Drawing.Point(298, 320);
             this.ckbcs12.Name = "ckbcs12";
             this.ckbcs12.Size = new System.Drawing.Size(123, 17);
             this.ckbcs12.TabIndex = 6;
@@ -208,7 +209,7 @@
             "5",
             "7",
             "10"});
-            this.cmbQntPrio1.Location = new System.Drawing.Point(133, 35);
+            this.cmbQntPrio1.Location = new System.Drawing.Point(186, 35);
             this.cmbQntPrio1.Name = "cmbQntPrio1";
             this.cmbQntPrio1.Size = new System.Drawing.Size(48, 21);
             this.cmbQntPrio1.TabIndex = 13;
@@ -223,7 +224,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio2.Location = new System.Drawing.Point(133, 92);
+            this.cmbprio2.Location = new System.Drawing.Point(186, 92);
             this.cmbprio2.Name = "cmbprio2";
             this.cmbprio2.Size = new System.Drawing.Size(48, 21);
             this.cmbprio2.TabIndex = 14;
@@ -231,7 +232,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(465, 259);
+            this.btnCancel.Location = new System.Drawing.Point(239, 352);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 15;
@@ -240,12 +241,13 @@
             // 
             // btnGerar
             // 
-            this.btnGerar.Location = new System.Drawing.Point(426, 202);
+            this.btnGerar.Location = new System.Drawing.Point(67, 352);
             this.btnGerar.Name = "btnGerar";
             this.btnGerar.Size = new System.Drawing.Size(114, 23);
             this.btnGerar.TabIndex = 16;
             this.btnGerar.Text = "Gerar horários";
             this.btnGerar.UseVisualStyleBackColor = true;
+            this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
             // cmbprio4
             // 
@@ -256,7 +258,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio4.Location = new System.Drawing.Point(133, 206);
+            this.cmbprio4.Location = new System.Drawing.Point(186, 206);
             this.cmbprio4.Name = "cmbprio4";
             this.cmbprio4.Size = new System.Drawing.Size(48, 21);
             this.cmbprio4.TabIndex = 18;
@@ -271,7 +273,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio3.Location = new System.Drawing.Point(133, 149);
+            this.cmbprio3.Location = new System.Drawing.Point(186, 149);
             this.cmbprio3.Name = "cmbprio3";
             this.cmbprio3.Size = new System.Drawing.Size(48, 21);
             this.cmbprio3.TabIndex = 17;
@@ -286,7 +288,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio6.Location = new System.Drawing.Point(133, 318);
+            this.cmbprio6.Location = new System.Drawing.Point(186, 318);
             this.cmbprio6.Name = "cmbprio6";
             this.cmbprio6.Size = new System.Drawing.Size(48, 21);
             this.cmbprio6.TabIndex = 20;
@@ -301,7 +303,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio5.Location = new System.Drawing.Point(133, 261);
+            this.cmbprio5.Location = new System.Drawing.Point(186, 261);
             this.cmbprio5.Name = "cmbprio5";
             this.cmbprio5.Size = new System.Drawing.Size(48, 21);
             this.cmbprio5.TabIndex = 19;
@@ -316,7 +318,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio8.Location = new System.Drawing.Point(367, 92);
+            this.cmbprio8.Location = new System.Drawing.Point(437, 94);
             this.cmbprio8.Name = "cmbprio8";
             this.cmbprio8.Size = new System.Drawing.Size(48, 21);
             this.cmbprio8.TabIndex = 22;
@@ -331,7 +333,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio7.Location = new System.Drawing.Point(367, 35);
+            this.cmbprio7.Location = new System.Drawing.Point(437, 37);
             this.cmbprio7.Name = "cmbprio7";
             this.cmbprio7.Size = new System.Drawing.Size(48, 21);
             this.cmbprio7.TabIndex = 21;
@@ -346,7 +348,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio10.Location = new System.Drawing.Point(367, 204);
+            this.cmbprio10.Location = new System.Drawing.Point(437, 206);
             this.cmbprio10.Name = "cmbprio10";
             this.cmbprio10.Size = new System.Drawing.Size(48, 21);
             this.cmbprio10.TabIndex = 24;
@@ -361,7 +363,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio9.Location = new System.Drawing.Point(367, 147);
+            this.cmbprio9.Location = new System.Drawing.Point(437, 149);
             this.cmbprio9.Name = "cmbprio9";
             this.cmbprio9.Size = new System.Drawing.Size(48, 21);
             this.cmbprio9.TabIndex = 23;
@@ -376,7 +378,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio12.Location = new System.Drawing.Point(367, 318);
+            this.cmbprio12.Location = new System.Drawing.Point(437, 320);
             this.cmbprio12.Name = "cmbprio12";
             this.cmbprio12.Size = new System.Drawing.Size(48, 21);
             this.cmbprio12.TabIndex = 26;
@@ -391,7 +393,7 @@
             "5",
             "7",
             "10"});
-            this.cmbprio11.Location = new System.Drawing.Point(367, 261);
+            this.cmbprio11.Location = new System.Drawing.Point(437, 263);
             this.cmbprio11.Name = "cmbprio11";
             this.cmbprio11.Size = new System.Drawing.Size(48, 21);
             this.cmbprio11.TabIndex = 25;
@@ -399,16 +401,26 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(340, 0);
+            this.dateTimePicker1.Location = new System.Drawing.Point(340, 9);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 27;
+            // 
+            // btnPrioTD
+            // 
+            this.btnPrioTD.Location = new System.Drawing.Point(355, 352);
+            this.btnPrioTD.Name = "btnPrioTD";
+            this.btnPrioTD.Size = new System.Drawing.Size(112, 23);
+            this.btnPrioTD.TabIndex = 28;
+            this.btnPrioTD.Text = "Prioridades lista";
+            this.btnPrioTD.UseVisualStyleBackColor = true;
             // 
             // Casa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 387);
+            this.Controls.Add(this.btnPrioTD);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.cmbprio12);
             this.Controls.Add(this.cmbprio11);
@@ -475,5 +487,6 @@
         private System.Windows.Forms.ComboBox cmbprio12;
         private System.Windows.Forms.ComboBox cmbprio11;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button btnPrioTD;
     }
 }

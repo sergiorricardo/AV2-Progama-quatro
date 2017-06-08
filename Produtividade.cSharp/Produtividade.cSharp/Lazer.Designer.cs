@@ -56,6 +56,7 @@
             this.ckbcs4 = new System.Windows.Forms.CheckBox();
             this.ckbcs2 = new System.Windows.Forms.CheckBox();
             this.ckbcs1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dateTimePicker1
@@ -379,13 +380,22 @@
             this.ckbcs1.TabIndex = 84;
             this.ckbcs1.Text = "Passeio do dia ";
             this.ckbcs1.UseVisualStyleBackColor = true;
-//            this.ckbcs1.CheckedChanged += new System.EventHandler(this.ckbcs1_CheckedChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(449, 372);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 112;
+            this.button1.Text = "Pontos";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Lazer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 399);
+            this.ClientSize = new System.Drawing.Size(627, 437);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblDuvida);
             this.Controls.Add(this.cmbprio12);
@@ -452,5 +462,6 @@
         private System.Windows.Forms.CheckBox ckbcs4;
         private System.Windows.Forms.CheckBox ckbcs2;
         private System.Windows.Forms.CheckBox ckbcs1;
+        private System.Windows.Forms.Button button1;
     }
 }

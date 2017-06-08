@@ -28,3 +28,14 @@ C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produti
 C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Prio_casa.resources
 C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Properties.Resources.resources
 C:\Users\DAni3L\Documents\Github\AV2-Progama-quatro\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Produtividade.cSharp.exe.config
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csprojResolveAssemblyReference.cache
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Casa.resources
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Emprego.resources
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Estudos.resources
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Form1.resources
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Lazer.resources
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Properties.Resources.resources
+C:\Users\Victor De Fassio\Desktop\Trabalho de quinta\Nova pasta\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache

@@ -7,16 +7,506 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Globalization;
 
 namespace Produtividade.cSharp
 {
     public partial class Estudos : Form
     {
         public string lavR, lavQ, lavG, bnhDG, ReEl, ReHd, Lcao, bnhCR, coPR, rEfe;
-        public string prio1, prio2, prio3, prio4, prio5, prio6, prio7, prio8, prio9, prio10, prio11, prio12;
+
+
+        public bool logado = false;
+        private Conecta conn;
+        public int x = 0;
+        public static SqlConnection ConnectOpen;
+
+        public string prio1 = "", prio2 = "", prio3 = "", prio4 = "", prio5 = "", prio6 = "", prio7 = "", prio8 = "", prio9 = "", prio10 = "", prio11 = "", prio12 = "";
+
+        public void combo1()
+        {
+            if (ckbcs1.Checked == true)
+            {
+                if (cmbQntPrio1.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+
+            if (ckbcs1.Checked == false)
+            {
+                if (cmbQntPrio1.Text == "10" || cmbQntPrio1.Text == "7" || cmbQntPrio1.Text == "5" || cmbQntPrio1.Text == "3" || cmbQntPrio1.Text == "1")
+
+                {
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+        }
+
+
+        public void combo2()
+        {
+            if (ckbcs2.Checked == true)
+            {
+                if (cmbprio2.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs2.Checked == false)
+            {
+                if (cmbprio2.Text == "10" || cmbprio2.Text == "7" || cmbprio2.Text == "5" || cmbprio2.Text == "3" || cmbprio2.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo3()
+        {
+            if (ckbcs3.Checked == true)
+            {
+                if (cmbprio3.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs3.Checked == false)
+            {
+                if (cmbprio3.Text == "10" || cmbprio3.Text == "7" || cmbprio3.Text == "5" || cmbprio3.Text == "3" || cmbprio3.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo4()
+        {
+            if (ckbcs4.Checked == true)
+            {
+                if (cmbprio4.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs4.Checked == false)
+            {
+                if (cmbprio4.Text == "10" || cmbprio4.Text == "7" || cmbprio4.Text == "5" || cmbprio4.Text == "3" || cmbprio4.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo5()
+        {
+            if (ckbcs5.Checked == true)
+            {
+                if (cmbprio5.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs5.Checked == false)
+            {
+                if (cmbprio5.Text == "10" || cmbprio5.Text == "7" || cmbprio5.Text == "5" || cmbprio5.Text == "3" || cmbprio5.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo6()
+        {
+            if (ckbcs6.Checked == true)
+            {
+                if (cmbprio6.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs6.Checked == false)
+            {
+                if (cmbprio6.Text == "10" || cmbprio6.Text == "7" || cmbprio6.Text == "5" || cmbprio6.Text == "3" || cmbprio6.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo8()
+        {
+            if (ckbcs8.Checked == true)
+            {
+                if (cmbprio8.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs8.Checked == false)
+            {
+                if (cmbprio8.Text == "10" || cmbprio8.Text == "7" || cmbprio8.Text == "5" || cmbprio8.Text == "3" || cmbprio8.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo7()
+        {
+            if (ckbcs7.Checked == true)
+            {
+                if (cmbprio7.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs7.Checked == false)
+            {
+                if (cmbprio7.Text == "10" || cmbprio7.Text == "7" || cmbprio7.Text == "5" || cmbprio7.Text == "3" || cmbprio7.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo11()
+        {
+            if (ckbcs11.Checked == true)
+            {
+                if (cmbprio11.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs11.Checked == false)
+            {
+                if (cmbprio11.Text == "10" || cmbprio11.Text == "7" || cmbprio11.Text == "5" || cmbprio11.Text == "3" || cmbprio11.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo9()
+        {
+            if (ckbcs9.Checked == true)
+            {
+                if (cmbprio9.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs9.Checked == false)
+            {
+                if (cmbprio9.Text == "10" || cmbprio9.Text == "7" || cmbprio9.Text == "5" || cmbprio9.Text == "3" || cmbprio9.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+
+        public void combo10()
+        {
+            if (ckbcs10.Checked == true)
+            {
+                if (cmbprio10.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs10.Checked == false)
+            {
+                if (cmbprio10.Text == "10" || cmbprio10.Text == "7" || cmbprio10.Text == "5" || cmbprio10.Text == "3" || cmbprio10.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+        }
+
+        public void combo12()
+        {
+            if (ckbcs12.Checked == true)
+            {
+                if (cmbprio12.Text == "")
+                {
+                    MessageBox.Show("Verifique prioridade");
+                    x = 1;
+                }
+
+
+            }
+            if (ckbcs12.Checked == false)
+            {
+                if (cmbprio12.Text == "10" || cmbprio12.Text == "7" || cmbprio12.Text == "5" || cmbprio12.Text == "3" || cmbprio12.Text == "1")
+                {
+
+                    MessageBox.Show("Verifique o que marcou");
+                    x = 1;
+                }
+
+            }
+
+
+
+
+        }
+        private void cmbprio4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio4 = cmbprio4.Text;
+        }
+
+        private void cmbprio5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio5 = cmbprio5.Text;
+        }
+
+        private void cmbprio6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio6 = cmbprio6.Text;
+        }
+
+        private void cmbprio7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio7 = cmbprio7.Text;
+        }
+
+        private void cmbprio8_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio8 = cmbprio8.Text;
+        }
+
+        private void cmbprio9_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio9 = cmbprio9.Text;
+        }
+
+        private void cmbprio10_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio10 = cmbprio10.Text;
+        }
+
+        private void cmbprio11_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio11 = cmbprio11.Text;
+        }
+
+        private void cmbprio3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio3 = cmbprio3.Text;
+
+
+        }
+
+        private void cmbprio2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            prio2 = cmbprio2.Text;
+        }
+
+        private void cmbQntPrio1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio1 = cmbQntPrio1.Text;
+
+
+
+        }
+
+        private void cmbprio12_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            prio12 = cmbprio12.Text;
+        }
+
+        DateTime locaDate = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time"));
+
+        public void zerado()
+        {
+            if (prio1 == "" && prio2 == "" && prio3 == "" && prio4 == "" && prio5 == "" && prio6 == "" && prio7 == "" && prio8 == "" && prio9 == "" && prio10 == "" && prio11 == "" && prio12 == "")
+            {
+                MessageBox.Show("Selecione algo por favor ");
+                x = 1;
+            }
+
+        }
+
+
+        public void insere()
+        {
+
+
+            StringBuilder sql = new StringBuilder();
+            sql.Append("Insert into estudo(id, ver_ema, prv, fat, trb, pltr, e_ad, excu, comp_esco, for, pesq_cmp, est, crs_onli )");
+            sql.Append("Values(@id, @ver_ema,  @prv, @fat, @trb, @pltr, @e_ad, @excu, @comp_esco, @for, @pesq_cmp, @est, @crs_onli )");
+            SqlCommand command = null;
+
+
+
+            try
+            {
+                command = new SqlCommand(sql.ToString(), ConnectOpen);
+                command.Parameters.Add(new SqlParameter("@id", locaDate));
+                command.Parameters.Add(new SqlParameter("@ver_ema", Convert.ToInt16(prio1)));
+                command.Parameters.Add(new SqlParameter("@prv", Convert.ToInt16(prio2)));
+                command.Parameters.Add(new SqlParameter("@fat", Convert.ToInt16(prio3)));
+                command.Parameters.Add(new SqlParameter("@trb", Convert.ToInt16(prio4)));
+                command.Parameters.Add(new SqlParameter("@pltr", Convert.ToInt16(prio5)));
+                command.Parameters.Add(new SqlParameter("@e_ad", Convert.ToInt16(prio6)));
+                command.Parameters.Add(new SqlParameter("@excu", Convert.ToInt16(prio7)));
+                command.Parameters.Add(new SqlParameter("@comp_esco", Convert.ToInt16(prio8)));
+                command.Parameters.Add(new SqlParameter("@for", Convert.ToInt16(prio9)));
+                command.Parameters.Add(new SqlParameter("@pesq_cmp", Convert.ToInt16(prio10)));
+                command.Parameters.Add(new SqlParameter("@est", Convert.ToInt16(prio11)));
+                command.Parameters.Add(new SqlParameter("@crs_onli", Convert.ToInt16(prio12)));
+
+
+                command.ExecuteNonQuery();
+
+                MessageBox.Show("Cadastrado com sucesso!");
+                Hide();
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao cadastrar" + ex);
+
+            }
+        }
+
+        private void btnGerar_Click(object sender, EventArgs e)
+        {
+            combo1();
+            combo2();
+            combo3();
+            combo4();
+            combo5();
+            combo6();
+            combo7();
+            combo8();
+            combo9();
+            combo10();
+            combo11();
+            combo12();
+            zerado();
+            if (x == 0)
+            {
+                insere();
+            }
+
+
+        }
+
+
         public Estudos()
         {
             InitializeComponent();
+            conn = new Conecta();
+            ConnectOpen = conn.ConnectToDatabase();
         }
 
         private void Estudos_Load(object sender, EventArgs e)
@@ -25,75 +515,5 @@ namespace Produtividade.cSharp
         }
 
 
-        private void ckbcs12_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio12.Visible = true;
-            prio12 = Convert.ToString(cmbprio12);
-        }
-
-        private void ckbcs11_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio11.Visible = true;
-            prio11 = Convert.ToString(cmbprio11);
-        }
-
-        private void ckbcs10_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio10.Visible = true;
-            prio10 = Convert.ToString(cmbprio10);
-        }
-
-        private void ckbcs9_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio9.Visible = true;
-            prio9 = Convert.ToString(cmbprio9);
-        }
-
-        private void ckbcs8_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio8.Visible = true;
-            prio8 = Convert.ToString(cmbprio8);
-        }
-        private void ckbcs7_CheckedChanged_1(object sender, EventArgs e)
-        {
-            cmbprio7.Visible = true;
-            prio7 = Convert.ToString(cmbprio7);
-        }
-
-
-        private void ckbcs5_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio5.Visible = true;
-            prio5 = Convert.ToString(cmbprio5);
-        }
-
-        private void ckbcs6_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio6.Visible = true;
-            prio6 = Convert.ToString(cmbprio6);
-        }
-
-        private void ckbcs3_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio3.Visible = true;
-            prio3 = Convert.ToString(cmbprio3);
-        }
-
-        private void ckbcs4_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio4.Visible = true;
-            prio4 = Convert.ToString(cmbprio4);
-        }
-
-        private void ckbcs2_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbprio2.Visible = true;
-            prio2 = Convert.ToString(cmbprio2);
-        }
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            cmbQntPrio1.Visible = true;
-            prio1 = Convert.ToString(cmbQntPrio1);
-        }
     }
 }

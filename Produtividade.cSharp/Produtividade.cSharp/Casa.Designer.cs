@@ -57,6 +57,7 @@
             this.cmbprio11 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnPrioTD = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ckbcs1
@@ -68,7 +69,7 @@
             this.ckbcs1.TabIndex = 0;
             this.ckbcs1.Text = "Lavar Roupa";
             this.ckbcs1.UseVisualStyleBackColor = true;
-            this.ckbcs1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.ckbcs1.CheckedChanged += new System.EventHandler(this.ckbcs1_CheckedChanged);
             // 
             // ckbcs2
             // 
@@ -79,7 +80,6 @@
             this.ckbcs2.TabIndex = 1;
             this.ckbcs2.Text = "Lavar quintal ";
             this.ckbcs2.UseVisualStyleBackColor = true;
-            this.ckbcs2.CheckedChanged += new System.EventHandler(this.ckbcs2_CheckedChanged);
             // 
             // ckbcs3
             // 
@@ -90,7 +90,6 @@
             this.ckbcs3.TabIndex = 3;
             this.ckbcs3.Text = "Dar baho no dog";
             this.ckbcs3.UseVisualStyleBackColor = true;
-            this.ckbcs3.CheckedChanged += new System.EventHandler(this.ckbcs3_CheckedChanged);
             // 
             // ckbcs4
             // 
@@ -101,7 +100,6 @@
             this.ckbcs4.TabIndex = 2;
             this.ckbcs4.Text = "Lavar garagem ";
             this.ckbcs4.UseVisualStyleBackColor = true;
-            this.ckbcs4.CheckedChanged += new System.EventHandler(this.ckbcs4_CheckedChanged);
             // 
             // ckbcs5
             // 
@@ -112,7 +110,6 @@
             this.ckbcs5.TabIndex = 5;
             this.ckbcs5.Text = "Acomp. Lição dos filhos";
             this.ckbcs5.UseVisualStyleBackColor = true;
-            this.ckbcs5.CheckedChanged += new System.EventHandler(this.ckbcs5_CheckedChanged);
             // 
             // ckbcs6
             // 
@@ -123,7 +120,6 @@
             this.ckbcs6.TabIndex = 4;
             this.ckbcs6.Text = "Reparos Eletricos ";
             this.ckbcs6.UseVisualStyleBackColor = true;
-            this.ckbcs6.CheckedChanged += new System.EventHandler(this.ckbcs6_CheckedChanged);
             // 
             // ckbcs7
             // 
@@ -134,7 +130,6 @@
             this.ckbcs7.TabIndex = 11;
             this.ckbcs7.Text = "Arrumar Casa";
             this.ckbcs7.UseVisualStyleBackColor = true;
-            this.ckbcs7.CheckedChanged += new System.EventHandler(this.ckbcs7_CheckedChanged);
             // 
             // ckbcs8
             // 
@@ -145,7 +140,6 @@
             this.ckbcs8.TabIndex = 10;
             this.ckbcs8.Text = "Lavar carros";
             this.ckbcs8.UseVisualStyleBackColor = true;
-            this.ckbcs8.CheckedChanged += new System.EventHandler(this.ckbcs8_CheckedChanged);
             // 
             // ckbcs9
             // 
@@ -156,7 +150,6 @@
             this.ckbcs9.TabIndex = 9;
             this.ckbcs9.Text = "Fazer Refeição ";
             this.ckbcs9.UseVisualStyleBackColor = true;
-            this.ckbcs9.CheckedChanged += new System.EventHandler(this.ckbcs9_CheckedChanged);
             // 
             // ckbcs10
             // 
@@ -167,7 +160,6 @@
             this.ckbcs10.TabIndex = 8;
             this.ckbcs10.Text = "Fazer compras";
             this.ckbcs10.UseVisualStyleBackColor = true;
-            this.ckbcs10.CheckedChanged += new System.EventHandler(this.ckbcs10_CheckedChanged);
             // 
             // ckbcs11
             // 
@@ -178,7 +170,6 @@
             this.ckbcs11.TabIndex = 7;
             this.ckbcs11.Text = "Reparos hidraulicos";
             this.ckbcs11.UseVisualStyleBackColor = true;
-            this.ckbcs11.CheckedChanged += new System.EventHandler(this.ckbcs11_CheckedChanged);
             // 
             // ckbcs12
             // 
@@ -189,7 +180,6 @@
             this.ckbcs12.TabIndex = 6;
             this.ckbcs12.Text = "Dar banho nos filhos";
             this.ckbcs12.UseVisualStyleBackColor = true;
-            this.ckbcs12.CheckedChanged += new System.EventHandler(this.ckbcs12_CheckedChanged);
             // 
             // lblDuvida
             // 
@@ -213,7 +203,7 @@
             this.cmbQntPrio1.Name = "cmbQntPrio1";
             this.cmbQntPrio1.Size = new System.Drawing.Size(48, 21);
             this.cmbQntPrio1.TabIndex = 13;
-            this.cmbQntPrio1.Visible = false;
+            this.cmbQntPrio1.SelectedIndexChanged += new System.EventHandler(this.cmbQntPrio1_SelectedIndexChanged);
             // 
             // cmbprio2
             // 
@@ -228,7 +218,7 @@
             this.cmbprio2.Name = "cmbprio2";
             this.cmbprio2.Size = new System.Drawing.Size(48, 21);
             this.cmbprio2.TabIndex = 14;
-            this.cmbprio2.Visible = false;
+            this.cmbprio2.SelectedIndexChanged += new System.EventHandler(this.cmbprio2_SelectedIndexChanged);
             // 
             // btnCancel
             // 
@@ -262,7 +252,7 @@
             this.cmbprio4.Name = "cmbprio4";
             this.cmbprio4.Size = new System.Drawing.Size(48, 21);
             this.cmbprio4.TabIndex = 18;
-            this.cmbprio4.Visible = false;
+            this.cmbprio4.SelectedIndexChanged += new System.EventHandler(this.cmbprio4_SelectedIndexChanged);
             // 
             // cmbprio3
             // 
@@ -277,7 +267,7 @@
             this.cmbprio3.Name = "cmbprio3";
             this.cmbprio3.Size = new System.Drawing.Size(48, 21);
             this.cmbprio3.TabIndex = 17;
-            this.cmbprio3.Visible = false;
+            this.cmbprio3.SelectedIndexChanged += new System.EventHandler(this.cmbprio3_SelectedIndexChanged);
             // 
             // cmbprio6
             // 
@@ -292,7 +282,7 @@
             this.cmbprio6.Name = "cmbprio6";
             this.cmbprio6.Size = new System.Drawing.Size(48, 21);
             this.cmbprio6.TabIndex = 20;
-            this.cmbprio6.Visible = false;
+            this.cmbprio6.SelectedIndexChanged += new System.EventHandler(this.cmbprio6_SelectedIndexChanged);
             // 
             // cmbprio5
             // 
@@ -307,7 +297,7 @@
             this.cmbprio5.Name = "cmbprio5";
             this.cmbprio5.Size = new System.Drawing.Size(48, 21);
             this.cmbprio5.TabIndex = 19;
-            this.cmbprio5.Visible = false;
+            this.cmbprio5.SelectedIndexChanged += new System.EventHandler(this.cmbprio5_SelectedIndexChanged);
             // 
             // cmbprio8
             // 
@@ -322,7 +312,7 @@
             this.cmbprio8.Name = "cmbprio8";
             this.cmbprio8.Size = new System.Drawing.Size(48, 21);
             this.cmbprio8.TabIndex = 22;
-            this.cmbprio8.Visible = false;
+            this.cmbprio8.SelectedIndexChanged += new System.EventHandler(this.cmbprio8_SelectedIndexChanged);
             // 
             // cmbprio7
             // 
@@ -337,7 +327,7 @@
             this.cmbprio7.Name = "cmbprio7";
             this.cmbprio7.Size = new System.Drawing.Size(48, 21);
             this.cmbprio7.TabIndex = 21;
-            this.cmbprio7.Visible = false;
+            this.cmbprio7.SelectedIndexChanged += new System.EventHandler(this.cmbprio7_SelectedIndexChanged);
             // 
             // cmbprio10
             // 
@@ -352,7 +342,7 @@
             this.cmbprio10.Name = "cmbprio10";
             this.cmbprio10.Size = new System.Drawing.Size(48, 21);
             this.cmbprio10.TabIndex = 24;
-            this.cmbprio10.Visible = false;
+            this.cmbprio10.SelectedIndexChanged += new System.EventHandler(this.cmbprio10_SelectedIndexChanged);
             // 
             // cmbprio9
             // 
@@ -367,7 +357,7 @@
             this.cmbprio9.Name = "cmbprio9";
             this.cmbprio9.Size = new System.Drawing.Size(48, 21);
             this.cmbprio9.TabIndex = 23;
-            this.cmbprio9.Visible = false;
+            this.cmbprio9.SelectedIndexChanged += new System.EventHandler(this.cmbprio9_SelectedIndexChanged);
             // 
             // cmbprio12
             // 
@@ -382,7 +372,7 @@
             this.cmbprio12.Name = "cmbprio12";
             this.cmbprio12.Size = new System.Drawing.Size(48, 21);
             this.cmbprio12.TabIndex = 26;
-            this.cmbprio12.Visible = false;
+            this.cmbprio12.SelectedIndexChanged += new System.EventHandler(this.cmbprio12_SelectedIndexChanged);
             // 
             // cmbprio11
             // 
@@ -397,7 +387,7 @@
             this.cmbprio11.Name = "cmbprio11";
             this.cmbprio11.Size = new System.Drawing.Size(48, 21);
             this.cmbprio11.TabIndex = 25;
-            this.cmbprio11.Visible = false;
+            this.cmbprio11.SelectedIndexChanged += new System.EventHandler(this.cmbprio11_SelectedIndexChanged);
             // 
             // dateTimePicker1
             // 
@@ -415,11 +405,19 @@
             this.btnPrioTD.Text = "Prioridades lista";
             this.btnPrioTD.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(174, 119);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 29;
+            // 
             // Casa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 387);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnPrioTD);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.cmbprio12);
@@ -488,5 +486,6 @@
         private System.Windows.Forms.ComboBox cmbprio11;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnPrioTD;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

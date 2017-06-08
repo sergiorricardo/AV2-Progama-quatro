@@ -87,7 +87,6 @@
             this.cmbprio12.Name = "cmbprio12";
             this.cmbprio12.Size = new System.Drawing.Size(48, 21);
             this.cmbprio12.TabIndex = 109;
-            this.cmbprio12.Visible = false;
             // 
             // cmbprio11
             // 
@@ -102,7 +101,6 @@
             this.cmbprio11.Name = "cmbprio11";
             this.cmbprio11.Size = new System.Drawing.Size(48, 21);
             this.cmbprio11.TabIndex = 108;
-            this.cmbprio11.Visible = false;
             // 
             // cmbprio10
             // 
@@ -117,7 +115,6 @@
             this.cmbprio10.Name = "cmbprio10";
             this.cmbprio10.Size = new System.Drawing.Size(48, 21);
             this.cmbprio10.TabIndex = 107;
-            this.cmbprio10.Visible = false;
             // 
             // cmbprio9
             // 
@@ -132,7 +129,6 @@
             this.cmbprio9.Name = "cmbprio9";
             this.cmbprio9.Size = new System.Drawing.Size(48, 21);
             this.cmbprio9.TabIndex = 106;
-            this.cmbprio9.Visible = false;
             // 
             // cmbprio8
             // 
@@ -147,7 +143,6 @@
             this.cmbprio8.Name = "cmbprio8";
             this.cmbprio8.Size = new System.Drawing.Size(48, 21);
             this.cmbprio8.TabIndex = 105;
-            this.cmbprio8.Visible = false;
             // 
             // cmbprio7
             // 
@@ -162,7 +157,6 @@
             this.cmbprio7.Name = "cmbprio7";
             this.cmbprio7.Size = new System.Drawing.Size(48, 21);
             this.cmbprio7.TabIndex = 104;
-            this.cmbprio7.Visible = false;
             // 
             // cmbprio6
             // 
@@ -177,7 +171,6 @@
             this.cmbprio6.Name = "cmbprio6";
             this.cmbprio6.Size = new System.Drawing.Size(48, 21);
             this.cmbprio6.TabIndex = 103;
-            this.cmbprio6.Visible = false;
             // 
             // cmbprio5
             // 
@@ -192,7 +185,6 @@
             this.cmbprio5.Name = "cmbprio5";
             this.cmbprio5.Size = new System.Drawing.Size(48, 21);
             this.cmbprio5.TabIndex = 102;
-            this.cmbprio5.Visible = false;
             // 
             // cmbprio4
             // 
@@ -207,7 +199,6 @@
             this.cmbprio4.Name = "cmbprio4";
             this.cmbprio4.Size = new System.Drawing.Size(48, 21);
             this.cmbprio4.TabIndex = 101;
-            this.cmbprio4.Visible = false;
             // 
             // cmbprio3
             // 
@@ -222,7 +213,6 @@
             this.cmbprio3.Name = "cmbprio3";
             this.cmbprio3.Size = new System.Drawing.Size(48, 21);
             this.cmbprio3.TabIndex = 100;
-            this.cmbprio3.Visible = false;
             // 
             // btnGerar
             // 
@@ -255,7 +245,6 @@
             this.cmbprio2.Name = "cmbprio2";
             this.cmbprio2.Size = new System.Drawing.Size(48, 21);
             this.cmbprio2.TabIndex = 97;
-            this.cmbprio2.Visible = false;
             // 
             // cmbQntPrio1
             // 
@@ -270,7 +259,6 @@
             this.cmbQntPrio1.Name = "cmbQntPrio1";
             this.cmbQntPrio1.Size = new System.Drawing.Size(48, 21);
             this.cmbQntPrio1.TabIndex = 96;
-            this.cmbQntPrio1.Visible = false;
             // 
             // ckbcs7
             // 
@@ -301,7 +289,6 @@
             this.ckbcs9.TabIndex = 93;
             this.ckbcs9.Text = "Namorar";
             this.ckbcs9.UseVisualStyleBackColor = true;
-            this.ckbcs9.CheckedChanged += new System.EventHandler(this.ckbcs9_CheckedChanged_1);
             // 
             // ckbcs10
             // 
@@ -322,7 +309,6 @@
             this.ckbcs11.TabIndex = 91;
             this.ckbcs11.Text = "Visitar amigos";
             this.ckbcs11.UseVisualStyleBackColor = true;
-            this.ckbcs11.CheckedChanged += new System.EventHandler(this.ckbcs11_CheckedChanged_1);
             // 
             // ckbcs12
             // 
@@ -393,6 +379,7 @@
             this.ckbcs1.TabIndex = 84;
             this.ckbcs1.Text = "Passeio do dia ";
             this.ckbcs1.UseVisualStyleBackColor = true;
+//            this.ckbcs1.CheckedChanged += new System.EventHandler(this.ckbcs1_CheckedChanged);
             // 
             // Lazer
             // 

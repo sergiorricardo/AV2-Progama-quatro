@@ -19,32 +19,60 @@ namespace Produtividade.cSharp
 
         private void casaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void estudosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lazerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void prioridadesCriadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var casa = new Prio_casa();
+            casa.ShowDialog();
+
+        }
+
+        private void semPrioridadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             var cs = new Casa();
             cs.ShowDialog();
         }
 
-        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void prioridadesCriadas9ToolStripMenuItem6_Click(object sender, EventArgs e)
         {
             var src = new Emprego();
             src.ShowDialog();
         }
 
-        private void estudosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void prioridadesCriadas9ToolStripMenuItem12_Click(object sender, EventArgs e)
         {
             var es = new Estudos();
             es.ShowDialog();
         }
 
-        private void lazerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void prioridadesCriadas9ToolStripMenuItem18_Click(object sender, EventArgs e)
         {
             var lz = new Lazer();
+            lz.ShowDialog();
         }
 
-        private void prioridadesCriadasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var pr_cs = new Prio_casa();
-            pr_cs.ShowDialog();
 
-        }
     }
 }

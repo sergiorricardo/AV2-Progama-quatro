@@ -87,7 +87,6 @@
             this.cmbprio12.Name = "cmbprio12";
             this.cmbprio12.Size = new System.Drawing.Size(48, 21);
             this.cmbprio12.TabIndex = 55;
-            this.cmbprio12.Visible = false;
             // 
             // cmbprio11
             // 
@@ -102,7 +101,6 @@
             this.cmbprio11.Name = "cmbprio11";
             this.cmbprio11.Size = new System.Drawing.Size(48, 21);
             this.cmbprio11.TabIndex = 54;
-            this.cmbprio11.Visible = false;
             // 
             // cmbprio10
             // 
@@ -117,7 +115,6 @@
             this.cmbprio10.Name = "cmbprio10";
             this.cmbprio10.Size = new System.Drawing.Size(48, 21);
             this.cmbprio10.TabIndex = 53;
-            this.cmbprio10.Visible = false;
             // 
             // cmbprio9
             // 
@@ -132,7 +129,6 @@
             this.cmbprio9.Name = "cmbprio9";
             this.cmbprio9.Size = new System.Drawing.Size(48, 21);
             this.cmbprio9.TabIndex = 52;
-            this.cmbprio9.Visible = false;
             // 
             // cmbprio8
             // 
@@ -147,7 +143,6 @@
             this.cmbprio8.Name = "cmbprio8";
             this.cmbprio8.Size = new System.Drawing.Size(48, 21);
             this.cmbprio8.TabIndex = 51;
-            this.cmbprio8.Visible = false;
             // 
             // cmbprio7
             // 
@@ -162,7 +157,6 @@
             this.cmbprio7.Name = "cmbprio7";
             this.cmbprio7.Size = new System.Drawing.Size(48, 21);
             this.cmbprio7.TabIndex = 50;
-            this.cmbprio7.Visible = false;
             // 
             // cmbprio6
             // 
@@ -177,7 +171,6 @@
             this.cmbprio6.Name = "cmbprio6";
             this.cmbprio6.Size = new System.Drawing.Size(48, 21);
             this.cmbprio6.TabIndex = 49;
-            this.cmbprio6.Visible = false;
             // 
             // cmbprio5
             // 
@@ -192,7 +185,6 @@
             this.cmbprio5.Name = "cmbprio5";
             this.cmbprio5.Size = new System.Drawing.Size(48, 21);
             this.cmbprio5.TabIndex = 48;
-            this.cmbprio5.Visible = false;
             // 
             // cmbprio4
             // 
@@ -207,7 +199,6 @@
             this.cmbprio4.Name = "cmbprio4";
             this.cmbprio4.Size = new System.Drawing.Size(48, 21);
             this.cmbprio4.TabIndex = 47;
-            this.cmbprio4.Visible = false;
             // 
             // cmbprio3
             // 
@@ -222,7 +213,6 @@
             this.cmbprio3.Name = "cmbprio3";
             this.cmbprio3.Size = new System.Drawing.Size(48, 21);
             this.cmbprio3.TabIndex = 46;
-            this.cmbprio3.Visible = false;
             // 
             // btnGerar
             // 
@@ -232,6 +222,7 @@
             this.btnGerar.TabIndex = 45;
             this.btnGerar.Text = "Gerar horários";
             this.btnGerar.UseVisualStyleBackColor = true;
+            this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
             // btnCancel
             // 
@@ -241,7 +232,6 @@
             this.btnCancel.TabIndex = 44;
             this.btnCancel.Text = "Voltar";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // cmbprio2
             // 
@@ -256,7 +246,6 @@
             this.cmbprio2.Name = "cmbprio2";
             this.cmbprio2.Size = new System.Drawing.Size(48, 21);
             this.cmbprio2.TabIndex = 43;
-            this.cmbprio2.Visible = false;
             // 
             // cmbQntPrio1
             // 
@@ -271,7 +260,6 @@
             this.cmbQntPrio1.Name = "cmbQntPrio1";
             this.cmbQntPrio1.Size = new System.Drawing.Size(48, 21);
             this.cmbQntPrio1.TabIndex = 42;
-            this.cmbQntPrio1.Visible = false;
             // 
             // ckbcs7
             // 
@@ -282,7 +270,6 @@
             this.ckbcs7.TabIndex = 41;
             this.ckbcs7.Text = "Contratações";
             this.ckbcs7.UseVisualStyleBackColor = true;
-            this.ckbcs7.CheckedChanged += new System.EventHandler(this.ckbcs7_CheckedChanged_1);
             // 
             // ckbcs8
             // 
@@ -393,6 +380,7 @@
             this.ckbcs1.TabIndex = 30;
             this.ckbcs1.Text = "Verificar email";
             this.ckbcs1.UseVisualStyleBackColor = true;
+            this.ckbcs1.CheckedChanged += new System.EventHandler(this.ckbcs1_CheckedChanged);
             // 
             // Emprego
             // 
